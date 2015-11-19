@@ -1,2 +1,3 @@
 .tags*
-
+pid.yml
+*.log

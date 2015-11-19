@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-sdk (2.1.35)
+      aws-sdk-resources (= 2.1.35)
+    aws-sdk-core (2.1.35)
+      jmespath (~> 1.0)
+    aws-sdk-resources (2.1.35)
+      aws-sdk-core (= 2.1.35)
+    jmespath (1.1.3)
+    sys-proctable (0.9.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-sdk (~> 2)
+  sys-proctable
+
+BUNDLED WITH
+   1.10.6

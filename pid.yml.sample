@@ -1,0 +1,12 @@
+unicorn:
+  -
+    name: kazuhisa
+    pid: /home/kazuhisa/project/tmp/pids/unicorn.pid
+    workers: 3
+  -
+    name: yoshimoto
+    pid: /home/yoshimoto/project/tmp/pids/unicorn.pid
+    workers: 3
+
+mail:
+  - ak.hisashi@gmail.com
