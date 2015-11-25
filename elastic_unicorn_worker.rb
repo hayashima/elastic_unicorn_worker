@@ -3,7 +3,7 @@ require 'sys/proctable'
 require './mail'
 
 class ElasticUnicornWorker
-  TIMEOUT = 10
+  TIMEOUT = 60
 
   def initialize
     @settings = YAML.load_file("pid.yml")
